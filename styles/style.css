@@ -1,0 +1,57 @@
+@charset "UTF-8";
+:root{
+    /* COLORSET */
+    --color000:white;
+    --color001:#8890BF;
+    --color002:#022873;
+    --color003:#021F59;
+    --color004:#192340;
+    --color005:#00030D;
+    --color006:black;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image: linear-gradient(-45deg, var(--color005), var(--color004), var(--color005));
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login{
+    background-color: var(--color000);
+    width: 53vw;
+    height: 75vh;
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#image{
+    background: url(../images/hub-M.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 30vh;
+    display: block;
+}
+
+#form{
+    padding: 10px;
+    
+    display: block;
+}
+
+

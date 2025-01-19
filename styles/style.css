@@ -5,10 +5,11 @@
     --color001:#8890BF;
     --color002:#022873;
     --color003:#021F59;
-    --color004:#191F41;
-    --color005:#00030D;
-    --color006:black;
+    --color004:#17204d;
+    --color005:#1A2042;
+    --color006:#00030D;
 }
+
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
@@ -17,10 +18,21 @@
 }
 
 body, html{
-    background-image:linear-gradient(to bottom, var(--color005), var(--color004));
+    background-image:linear-gradient(to bottom, var(--color006), var(--color005));
     width: 100vw;
     height: 100vh;
 }
+
+h1{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+p, a, .camp{
+    font-size: .8em;
+}
+
 
 main{
     position: relative;
@@ -35,6 +47,8 @@ main{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.407);
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 
     position: absolute;
     top: 50%;

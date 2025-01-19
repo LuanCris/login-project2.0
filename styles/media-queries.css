@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*MEDEIA QUERIES
 TYPICAL DEVICE BREAKPOINTS
 
@@ -9,3 +10,85 @@ TYPICAL DEVICE BREAKPOINTS
 > EXTRA LARGE (LARGE LAPTOPS AND DESKTOPS, 1200PX AND UP): MIN-WIDTH: 1200PX.
 */
 
+@media screen and (min-width:600px) and (max-width:992px){
+    @keyframes backgroundAnimation {
+        /* ANIMATION */
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 100%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+body, html{
+    background-image:linear-gradient(to bottom, var(--color005), var(--color006), var(--color006), var(--color006), var(--color005), var(--color006), var(--color006));
+    animation: backgroundAnimation 5s ease infinite;
+    background-size: 400% 400%;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
+#login{
+    width: 80vw;
+
+}
+#image{
+    background: url(../images/hub-O.jpg) center center no-repeat fixed;
+    background-size: cover;
+    background-position: center top;
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+#form{
+    float: right;
+    width: 60%;
+}
+}
+
+@media screen and (min-width:992px){
+    @keyframes backgroundAnimation {
+        /* ANIMATION */
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 100%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    body, html{
+        background-image:linear-gradient(-45deg, var(--color005), var(--color006), var(--color005), var(--color006), var(--color005), var(--color006) );
+        animation: backgroundAnimation 10s ease infinite;
+        background-size: 400% 400%;
+    }
+    h1{
+        font-size: 2.2em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    #login{
+        width:900px; 
+    }
+    #image{
+        background: url(../images/hub-O.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+    #form{
+        float: left;
+        width: 50%;
+    }
+}

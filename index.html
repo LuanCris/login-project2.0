@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-queries.css">
     <title>Login Page</title>
@@ -19,7 +21,21 @@
                 <p>Welcome! This is a login page created by Luan Cris. Put your account in that security empty spaces, and get start your configuration.</p>
 
                 <form action="login.php" method="post">
-
+                <div class="camp">
+                    <i class="material-icons">person</i>
+                    <input type="email" name="user" id="iuser" placeholder="Your email or username" maxlength="30" size="20" required>
+                    <label for="iuser">User</label>
+                </div>
+                <div class="camp">
+                    <i class="material-icons">key</i>
+                    <input type="password" name="password" id="ipassword" placeholder="Your password" minlength="8" maxlength="15" required>
+                    <label for="ipassword">Password</label>
+                </div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Enter">
+                <a href="forgot.html">
+                    Forgot the password
+                </a>
                 </form>
             </div>
         </section>

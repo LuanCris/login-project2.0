@@ -31,24 +31,67 @@ body, html{
 h1{
     font-size: 2em;
 }
-p{
+p, a, .camp{
     font-size: 1em;
 }
 #login{
     width: 80vw;
 
+    #image{
+        background: url(../images/hub-O.jpg) center center no-repeat fixed;
+        background-size: cover;
+        background-position: center top;
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
 }
-#image{
-    background: url(../images/hub-O.jpg) center center no-repeat fixed;
-    background-size: cover;
-    background-position: center top;
-    float: left;
-    height: 100%;
-    width: 40%;
-}
+
 #form{
     float: right;
     width: 60%;
+    height: 100%;
+
+    h1{
+        margin-bottom: 15px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    label{
+        display: block;
+        text-align: right;
+        margin-top: 5px;
+        font-size: .9em;
+    }
+    .boton{
+        padding: 14px;
+        margin: 15px 0px 15px 0px;
+    }
+    input[type=reset]{
+        background-color:var(--color002);
+        color: var(--color000);
+        border: none;
+        width: 49%;
+        display: inline;
+        padding: 15px;
+        margin-right: 2%;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    input[type=submit]{
+        background-color: var(--color002);
+        color: var(--color000);
+        border: none;
+        padding: 15px;
+        width: 49%;
+        display: inline;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    input{
+        padding: 5px;
+    }
 }
 }
 
@@ -73,22 +116,62 @@ p{
     h1{
         font-size: 2.2em;
     }
-    p{
+    p, a, .camp{
         font-size: 1.2em;
     }
     #login{
-        width:900px; 
+        width:900px;
+        
+        #image{
+            background: url(../images/hub-O.jpg);
+            background-size: cover;
+            background-position: center center;
+            float: right;
+            height: 100%;
+            width: 50%;
+        }
     }
-    #image{
-        background: url(../images/hub-O.jpg);
-        background-size: cover;
-        background-position: center center;
-        float: right;
-        height: 100%;
-        width: 50%;
-    }
+    
     #form{
         float: left;
         width: 50%;
+
+        .camp{
+            margin-top: 10px;
+        }
+        label{
+            display: block;
+            text-align: right;
+            font-size: .9em;
+        }
+        .boton{
+            padding: 15px;
+            margin: 20px 0px 20px 0px;
+        }
+        input[type=reset]{
+            background-color:var(--color002);
+            color: var(--color000);
+            border: none;
+            width: 49%;
+            display: inline;
+            padding: 16px;
+            margin-right: 2%;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        input[type=submit]{
+            background-color: var(--color002);
+            color: var(--color000);
+            border: none;
+            padding: 16px;
+            width: 49%;
+            display: inline;
+            border-radius:5px ;
+            font-size: 1.2em;
+
+        }
+    }
+    input{
+        font-size: 1em;
     }
 }

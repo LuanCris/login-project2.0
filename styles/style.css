@@ -44,18 +44,18 @@ main{
 
 #login{
     background-color: var(--color000);
-    width: 53vw;
-    height: 75vh;
+    width: 60vw;
+    height: 76vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.407);
-    transition: width .2s, height .2s;
-    transition-timing-function: ease;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 
     #image{
         background: url(../images/hub-M.jpg) center center no-repeat fixed;
@@ -77,13 +77,13 @@ main{
         width: 100%;
         padding: 10px;
         display: block;
-        text-align: left;
+        text-align: center;
         margin-top: 5px;
         border-radius: 5px;
         border: none;
     }
     i{
-        text-align: right;
+        text-align: center;
     }
     label{
         display: none;

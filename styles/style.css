@@ -45,8 +45,8 @@ main{
 
 #login{
     background-color: var(--color000);
-    width: 62vw;
-    height: 78vh;
+    width: 63vw;
+    height: 76vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.407);

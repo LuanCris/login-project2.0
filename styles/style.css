@@ -82,6 +82,7 @@ main{
         margin-top: 5px;
         border-radius: 5px;
         border: none;
+        margin-left: 0px;
     }
     i{
         text-align: center;
@@ -113,7 +114,7 @@ main{
         display: inline;
         padding: 10px;
         margin-right: 2%;
-        border-radius: 5px;
+        border-radius: 5px 5px 5px 15px;
             cursor: pointer;
     }
     input[type=submit]{
@@ -123,7 +124,7 @@ main{
         padding: 10px;
         width: 49%;
         display: inline;
-        border-radius: 5px;
+        border-radius: 5px 5px 15px 5px;
             cursor: pointer;
     }
     input[type=reset]:hover{

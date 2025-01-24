@@ -45,7 +45,7 @@ main{
 
 #login{
     background-color: var(--color000);
-    width: 63vw;
+    width: 62vw;
     height: 76vh;
     border-radius: 20px;
     overflow: hidden;
@@ -113,7 +113,7 @@ main{
         display: inline;
         padding: 10px;
         margin-right: 2%;
-        border-radius: 5px 5px 5px 15px ;
+        border-radius: 5px;
             cursor: pointer;
     }
     input[type=submit]{
@@ -123,7 +123,7 @@ main{
         padding: 10px;
         width: 49%;
         display: inline;
-        border-radius: 5px 5px 15px 5px ;
+        border-radius: 5px;
             cursor: pointer;
     }
     input[type=reset]:hover{

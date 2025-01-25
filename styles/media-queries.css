@@ -12,31 +12,21 @@ TYPICAL DEVICE BREAKPOINTS
 
 /* FOR TABLETS */
 @media screen and (min-width:600px) and (max-width:992px){
-    @keyframes backgroundAnimation {
-        /* ANIMATION */
-        0%{
-            background-position: 0% 50%;
-        }
-        50%{
-            background-position: 100% 100%;
-        }
-        100%{
-            background-position: 0% 50%;
-        }
-    }
+
 body, html{
-    background-image:linear-gradient(to bottom, var(--color005), var(--color006), var(--color006), var(--color006), var(--color005), var(--color006), var(--color006));
-    animation: backgroundAnimation 5s ease infinite;
-    background-size: 400% 400%;
+    background-image:linear-gradient(to bottom, var(--color006), var(--color005));
 }
+
 h1{
     font-size: 2em;
 }
 p, a, .camp{
     font-size: 1em;
 }
+
 #login{
     width: 80vw;
+    height: 300px;
 
     #image{
         background: url(../images/hub-O.jpg) center center no-repeat fixed;
@@ -44,54 +34,34 @@ p, a, .camp{
         background-position: center top;
         float: left;
         height: 100%;
-        width: 40%;
+        width: 30%;
     }
 }
 
 #form{
     float: right;
-    width: 60%;
-    height: 100%;
+    width: 70%;
 
-    h1{
-        margin-bottom: 15px;
-    }
-    p{
-        margin-bottom: 20px;
-    }
-    label{
-        display: block;
-        text-align: right;
-        margin-top: 5px;
-        font-size: .9em;
-    }
-    .boton{
-        padding: 14px;
-        margin: 15px 0px 15px 0px;
-    }
     input[type=reset]{
         background-color:var(--color002);
         color: var(--color000);
         border: none;
         width: 49%;
         display: inline;
-        padding: 15px;
+        padding: 10px;
         margin-right: 2%;
         border-radius: 5px;
-        font-size: 1em;
+
     }
     input[type=submit]{
         background-color: var(--color002);
         color: var(--color000);
         border: none;
-        padding: 15px;
+        padding: 10px;
         width: 49%;
         display: inline;
         border-radius: 5px;
-        font-size: 1em;
-    }
-    input{
-        padding: 5px;
+
     }
 }
 }
@@ -116,13 +86,14 @@ p, a, .camp{
         background-size: 400% 400%;
     }
     h1{
-        font-size: 2.2em;
+        font-size: 2em;
     }
     p, a, .camp{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     #login{
-        width:900px;
+        width:950px;
+        height: 350px;
         
         #image{
             background: url(../images/hub-O.jpg);
@@ -138,38 +109,30 @@ p, a, .camp{
         float: left;
         width: 50%;
 
-        .camp{
-            margin-top: 10px;
+        p{
+            margin: 20px 0px;
         }
-        label{
-            display: block;
-            text-align: right;
-            font-size: .9em;
-        }
-        .boton{
-            padding: 15px;
-            margin: 20px 0px 20px 0px;
-        }
+
         input[type=reset]{
             background-color:var(--color002);
             color: var(--color000);
             border: none;
             width: 49%;
             display: inline;
-            padding: 16px;
+            padding: 10px;
             margin-right: 2%;
-            border-radius: 5px;
-            font-size: 1.2em;
+            border-radius: 6px;
+
         }
         input[type=submit]{
             background-color: var(--color002);
             color: var(--color000);
             border: none;
-            padding: 16px;
+            padding: 10px;
             width: 49%;
             display: inline;
-            border-radius:5px ;
-            font-size: 1.2em;
+            border-radius:6px ;
+
 
         }
     }

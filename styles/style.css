@@ -75,28 +75,49 @@ main{
     .camp{
         background-color: var(--color003);
         color: var(--color000);
+        border:2px solid var(--color001);
         width: 100%;
         padding: 10px;
         display: block;
         text-align: center;
         margin-top: 5px;
-        border-radius: 5px;
-        border: none;
+        border-radius: 6px;
+        /* border: none; */
         margin-left: 0px;
+
+        input{
+            background-color: var(--color001);
+            font-size: 1em;
+            width:calc(100% - 44px);
+            transform: translateY(-10px);
+            height: 100%;
+            border: 0px;
+            border-radius: 6px;
+            padding: 4px;
+        }
+        input:focus-within{
+            background-color: white;
+            transition: .5s;
+        }
+        i{
+            /* text-align: center; */
+            /* background-color: #00030D; */
+            font-size: 1.5em;
+            width: 40px;
+            padding: 5px;
+        }
     }
-    i{
-        text-align: center;
-    }
+    
     label{
         display: none;
     }
     .boton{
-        background-color: var(--color001);
-        color: var(--color000);
+        background-color: var(--color000);
+        color: var(--color001);
+        border:1px solid var(--color001);
         text-decoration: none;
         display: block;
         width: 100%;
-        margin: px;
         text-align: center;
         padding: 8px;
         margin: 10px 0px 10px 0px;

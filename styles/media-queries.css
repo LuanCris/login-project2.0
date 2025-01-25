@@ -10,6 +10,7 @@ TYPICAL DEVICE BREAKPOINTS
 > EXTRA LARGE (LARGE LAPTOPS AND DESKTOPS, 1200PX AND UP): MIN-WIDTH: 1200PX.
 */
 
+/* FOR TABLETS */
 @media screen and (min-width:600px) and (max-width:992px){
     @keyframes backgroundAnimation {
         /* ANIMATION */
@@ -95,6 +96,7 @@ p, a, .camp{
 }
 }
 
+/* FOR LAPTOPS AND COMPUTERS */
 @media screen and (min-width:992px){
     @keyframes backgroundAnimation {
         /* ANIMATION */

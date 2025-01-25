@@ -22,7 +22,6 @@ body, html{
     background-image:linear-gradient(to bottom, var(--color006), var(--color005));
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 
 
